@@ -1,0 +1,65 @@
+﻿@model IEnumerable<OnlineResultManagementSystem.Models.tblCgparule>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>@if(User.Identity.Name=="hmahmud59@gmail.com")
+   { 
+    @Html.ActionLink("Create New", "Create")
+}
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.minimum_marks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.maximum_marks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.grade_point)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.letter_grade)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.division_or_class)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.minimum_marks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.maximum_marks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.grade_point)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.letter_grade)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.division_or_class)
+        </td>
+        <td>
+            @if(User.Identity.Name=="hmahmud59@gmail.com")
+            { 
+            @Html.ActionLink("Edit", "Edit", new { id=item.cgpa_rules_id }) 
+           
+            @Html.ActionLink("Delete", "Delete", new { id=item.cgpa_rules_id })
+            }
+            @Html.ActionLink("Details", "Details", new { id = item.cgpa_rules_id })
+            
+        </td>
+                
+    </tr>
+}
+
+</table>

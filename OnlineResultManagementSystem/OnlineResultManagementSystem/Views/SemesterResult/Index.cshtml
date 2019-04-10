@@ -1,0 +1,60 @@
+﻿@model OnlineResultManagementSystem.Models.ReportModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Semester Result</h2>
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        <div class="col-md-3">
+            Select Department
+        </div>
+        <div class="col-md-3">
+            @Html.DropDownList("department_id", new SelectList(ViewBag.departments, "department_id", "department_name"), new { @id = "department_id" })
+        </div>
+    </div>
+    <div class="col-md-10">
+        <br />
+        <div class="col-md-3">
+            Select Semester
+        </div>
+        <div class="col-md-3">
+            @Html.DropDownList("semester_id", new SelectList(ViewBag.semesters, "semester_id", "semester_name"), new { @id = "semester_id" })
+            
+        </div>
+    </div>
+    <div class="col-md-10">
+        <br />
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3" style="float: left;">
+            
+            <input type="button" class="btn btn-info" value="Show Report" onclick="ShowReport('pdf')" id="btnReport" />
+
+        </div>
+
+    </div>
+
+</div>
+<br />
+<div style="clear: both"></div>
+
+<div class="col-md-12" id="semesterResultRecord">
+</div>
+<script>
+
+    function ShowReport(fileType)
+    {
+        var departmentId = $('#department_id').val();
+        var semesterId = $('#semester_id').val();
+        var viewURL = '../../SemesterResult/SemesterResultReport/?id=' + fileType + "&departmentId=" + departmentId + "&semesterId=" + semesterId;
+        //FancyBox(viewURL);
+        $.fancybox.open({
+            href: viewURL,
+            'type': 'iframe'
+        })
+    }
+</script>
+

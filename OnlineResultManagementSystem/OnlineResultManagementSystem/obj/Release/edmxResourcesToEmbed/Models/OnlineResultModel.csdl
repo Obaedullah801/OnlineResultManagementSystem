@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OnlineResultDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblCgparule">
+    <Key>
+      <PropertyRef Name="cgpa_rules_id" />
+    </Key>
+    <Property Name="cgpa_rules_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="minimum_marks" Type="Int32" Nullable="false" />
+    <Property Name="maximum_marks" Type="Int32" Nullable="false" />
+    <Property Name="grade_point" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="letter_grade" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="division_or_class" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tblCollege">
+    <Key>
+      <PropertyRef Name="college_id" />
+    </Key>
+    <Property Name="college_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="college_name" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="college_code" Type="Int32" Nullable="false" />
+    <Property Name="college_logo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="college_address" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblDegree">
+    <Key>
+      <PropertyRef Name="degree_id" />
+    </Key>
+    <Property Name="degree_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="degree_name" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="tblMarksEntries" Relationship="Self.FK_tblMarksEntry_tblDegree" FromRole="tblDegree" ToRole="tblMarksEntry" />
+    <NavigationProperty Name="tblMarksEntries1" Relationship="Self.FK_tblMarksEntry_tblSemester" FromRole="tblDegree" ToRole="tblMarksEntry" />
+    <NavigationProperty Name="tblSemesters" Relationship="Self.FK_tblSemester_tblDegree" FromRole="tblDegree" ToRole="tblSemester" />
+    <NavigationProperty Name="tblStudentProfiles" Relationship="Self.FK_tblStudentProfile_tblDegree" FromRole="tblDegree" ToRole="tblStudentProfile" />
+  </EntityType>
+  <EntityType Name="tblDepartment">
+    <Key>
+      <PropertyRef Name="department_id" />
+    </Key>
+    <Property Name="department_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="department_name" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="dept_address" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblMarksEntries" Relationship="Self.FK_tblMarksEntry_tblDepartment" FromRole="tblDepartment" ToRole="tblMarksEntry" />
+    <NavigationProperty Name="tblSemesters" Relationship="Self.FK_tblSemester_tblDepartment" FromRole="tblDepartment" ToRole="tblSemester" />
+    <NavigationProperty Name="tblStudentProfiles" Relationship="Self.FK_tblStudentProfile_tblDepartment" FromRole="tblDepartment" ToRole="tblStudentProfile" />
+  </EntityType>
+  <EntityType Name="tblMarksEntry">
+    <Key>
+      <PropertyRef Name="marks_entry_id" />
+    </Key>
+    <Property Name="marks_entry_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="student_profile_id" Type="Int32" Nullable="false" />
+    <Property Name="degree_id" Type="Int32" Nullable="false" />
+    <Property Name="department_id" Type="Int32" Nullable="false" />
+    <Property Name="semester_id" Type="Int32" Nullable="false" />
+    <Property Name="roll_no" Type="Int32" Nullable="false" />
+    <Property Name="reg_no" Type="Int32" Nullable="false" />
+    <Property Name="subject_id" Type="Int32" Nullable="false" />
+    <Property Name="full_marks" Type="Int32" Nullable="false" />
+    <Property Name="obtained_marks" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblDegree" Relationship="Self.FK_tblMarksEntry_tblDegree" FromRole="tblMarksEntry" ToRole="tblDegree" />
+    <NavigationProperty Name="tblDegree1" Relationship="Self.FK_tblMarksEntry_tblSemester" FromRole="tblMarksEntry" ToRole="tblDegree" />
+    <NavigationProperty Name="tblDepartment" Relationship="Self.FK_tblMarksEntry_tblDepartment" FromRole="tblMarksEntry" ToRole="tblDepartment" />
+    <NavigationProperty Name="tblStudentProfile" Relationship="Self.FK_tblMarksEntry_tblStudentProfile" FromRole="tblMarksEntry" ToRole="tblStudentProfile" />
+    <NavigationProperty Name="tblSubject" Relationship="Self.FK_tblMarksEntry_tblSubject" FromRole="tblMarksEntry" ToRole="tblSubject" />
+  </EntityType>
+  <EntityType Name="tblMarksheet">
+    <Key>
+      <PropertyRef Name="marksheet_id" />
+    </Key>
+    <Property Name="marksheet_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="student_profile_id" Type="Int32" Nullable="false" />
+    <Property Name="fathers_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="mothers_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="degree_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="department_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="semester_name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="roll_no" Type="Int32" Nullable="false" />
+    <Property Name="reg_no" Type="Int32" Nullable="false" />
+    <Property Name="grade_point" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="letter_grade" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="tblStudentProfile" Relationship="Self.FK_tblMarksheet_tblStudentProfile" FromRole="tblMarksheet" ToRole="tblStudentProfile" />
+  </EntityType>
+  <EntityType Name="tblSemester">
+    <Key>
+      <PropertyRef Name="semester_id" />
+    </Key>
+    <Property Name="semester_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="semester_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="degree_id" Type="Int32" Nullable="false" />
+    <Property Name="department_id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblDegree" Relationship="Self.FK_tblSemester_tblDegree" FromRole="tblSemester" ToRole="tblDegree" />
+    <NavigationProperty Name="tblDepartment" Relationship="Self.FK_tblSemester_tblDepartment" FromRole="tblSemester" ToRole="tblDepartment" />
+    <NavigationProperty Name="tblStudentProfiles" Relationship="Self.FK_tblStudentProfile_tblSemester" FromRole="tblSemester" ToRole="tblStudentProfile" />
+  </EntityType>
+  <EntityType Name="tblSemesterResult">
+    <Key>
+      <PropertyRef Name="semester_result_id" />
+    </Key>
+    <Property Name="semester_result_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="student_profile_id" Type="Int32" Nullable="false" />
+    <Property Name="roll_no" Type="Int32" Nullable="false" />
+    <Property Name="reg_no" Type="Int32" Nullable="false" />
+    <Property Name="total_marks" Type="Int32" Nullable="false" />
+    <Property Name="obtained_total_marks" Type="Int32" Nullable="false" />
+    <Property Name="letter_grade" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="grade_point" Type="Decimal" Precision="3" Scale="2" Nullable="false" />
+    <Property Name="division_class" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblStudentProfile" Relationship="Self.FK_tblSemesterResult_tblStudentProfile" FromRole="tblSemesterResult" ToRole="tblStudentProfile" />
+  </EntityType>
+  <EntityType Name="tblStudentProfile">
+    <Key>
+      <PropertyRef Name="student_profile_id" />
+    </Key>
+    <Property Name="student_profile_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="student_name" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="student_photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="fathers_name" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="mothers_name" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Name="roll_no" Type="Int32" Nullable="false" />
+    <Property Name="reg_no" Type="Int32" Nullable="false" />
+    <Property Name="degree_id" Type="Int32" Nullable="false" />
+    <Property Name="department_id" Type="Int32" Nullable="false" />
+    <Property Name="semester_id" Type="Int32" Nullable="false" />
+    <Property Name="phone_no" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email_id" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblDegree" Relationship="Self.FK_tblStudentProfile_tblDegree" FromRole="tblStudentProfile" ToRole="tblDegree" />
+    <NavigationProperty Name="tblDepartment" Relationship="Self.FK_tblStudentProfile_tblDepartment" FromRole="tblStudentProfile" ToRole="tblDepartment" />
+    <NavigationProperty Name="tblMarksEntries" Relationship="Self.FK_tblMarksEntry_tblStudentProfile" FromRole="tblStudentProfile" ToRole="tblMarksEntry" />
+    <NavigationProperty Name="tblMarksheets" Relationship="Self.FK_tblMarksheet_tblStudentProfile" FromRole="tblStudentProfile" ToRole="tblMarksheet" />
+    <NavigationProperty Name="tblSemester" Relationship="Self.FK_tblStudentProfile_tblSemester" FromRole="tblStudentProfile" ToRole="tblSemester" />
+    <NavigationProperty Name="tblSemesterResults" Relationship="Self.FK_tblSemesterResult_tblStudentProfile" FromRole="tblStudentProfile" ToRole="tblSemesterResult" />
+  </EntityType>
+  <EntityType Name="tblSubject">
+    <Key>
+      <PropertyRef Name="subject_id" />
+    </Key>
+    <Property Name="subject_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="subject_name" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="subject_code" Type="Int32" Nullable="false" />
+    <Property Name="full_marks" Type="Int32" Nullable="false" />
+    <Property Name="credit" Type="Decimal" Precision="3" Scale="2" />
+    <NavigationProperty Name="tblMarksEntries" Relationship="Self.FK_tblMarksEntry_tblSubject" FromRole="tblSubject" ToRole="tblMarksEntry" />
+  </EntityType>
+  <Association Name="FK_tblMarksEntry_tblDegree">
+    <End Role="tblDegree" Type="Self.tblDegree" Multiplicity="1" />
+    <End Role="tblMarksEntry" Type="Self.tblMarksEntry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblDegree">
+        <PropertyRef Name="degree_id" />
+      </Principal>
+      <Dependent Role="tblMarksEntry">
+        <PropertyRef Name="degree_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblMarksEntry_tblSemester">
+    <End Role="tblDegree" Type="Self.tblDegree" Multiplicity="1" />
+    <End Role="tblMarksEntry" Type="Self.tblMarksEntry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblDegree">
+        <PropertyRef Name="degree_id" />
+      </Principal>
+      <Dependent Role="tblMarksEntry">
+        <PropertyRef Name="degree_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSemester_tblDegree">
+    <End Role="tblDegree" Type="Self.tblDegree" Multiplicity="1" />
+    <End Role="tblSemester" Type="Self.tblSemester" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblDegree">
+        <PropertyRef Name="degree_id" />
+      </Principal>
+      <Dependent Role="tblSemester">
+        <PropertyRef Name="degree_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblStudentProfile_tblDegree">
+    <End Role="tblDegree" Type="Self.tblDegree" Multiplicity="1" />
+    <End Role="tblStudentProfile" Type="Self.tblStudentProfile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblDegree">
+        <PropertyRef Name="degree_id" />
+      </Principal>
+      <Dependent Role="tblStudentProfile">
+        <PropertyRef Name="degree_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblMarksEntry_tblDepartment">
+    <End Role="tblDepartment" Type="Self.tblDepartment" Multiplicity="1" />
+    <End Role="tblMarksEntry" Type="Self.tblMarksEntry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblDepartment">
+        <PropertyRef Name="department_id" />
+      </Principal>
+      <Dependent Role="tblMarksEntry">
+        <PropertyRef Name="department_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSemester_tblDepartment">
+    <End Role="tblDepartment" Type="Self.tblDepartment" Multiplicity="1" />
+    <End Role="tblSemester" Type="Self.tblSemester" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblDepartment">
+        <PropertyRef Name="department_id" />
+      </Principal>
+      <Dependent Role="tblSemester">
+        <PropertyRef Name="department_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblStudentProfile_tblDepartment">
+    <End Role="tblDepartment" Type="Self.tblDepartment" Multiplicity="1" />
+    <End Role="tblStudentProfile" Type="Self.tblStudentProfile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblDepartment">
+        <PropertyRef Name="department_id" />
+      </Principal>
+      <Dependent Role="tblStudentProfile">
+        <PropertyRef Name="department_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblMarksEntry_tblStudentProfile">
+    <End Role="tblStudentProfile" Type="Self.tblStudentProfile" Multiplicity="1" />
+    <End Role="tblMarksEntry" Type="Self.tblMarksEntry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblStudentProfile">
+        <PropertyRef Name="student_profile_id" />
+      </Principal>
+      <Dependent Role="tblMarksEntry">
+        <PropertyRef Name="student_profile_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblMarksEntry_tblSubject">
+    <End Role="tblSubject" Type="Self.tblSubject" Multiplicity="1" />
+    <End Role="tblMarksEntry" Type="Self.tblMarksEntry" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSubject">
+        <PropertyRef Name="subject_id" />
+      </Principal>
+      <Dependent Role="tblMarksEntry">
+        <PropertyRef Name="subject_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblMarksheet_tblStudentProfile">
+    <End Role="tblStudentProfile" Type="Self.tblStudentProfile" Multiplicity="1" />
+    <End Role="tblMarksheet" Type="Self.tblMarksheet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblStudentProfile">
+        <PropertyRef Name="student_profile_id" />
+      </Principal>
+      <Dependent Role="tblMarksheet">
+        <PropertyRef Name="student_profile_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblStudentProfile_tblSemester">
+    <End Role="tblSemester" Type="Self.tblSemester" Multiplicity="1" />
+    <End Role="tblStudentProfile" Type="Self.tblStudentProfile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSemester">
+        <PropertyRef Name="semester_id" />
+      </Principal>
+      <Dependent Role="tblStudentProfile">
+        <PropertyRef Name="semester_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSemesterResult_tblStudentProfile">
+    <End Role="tblStudentProfile" Type="Self.tblStudentProfile" Multiplicity="1" />
+    <End Role="tblSemesterResult" Type="Self.tblSemesterResult" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblStudentProfile">
+        <PropertyRef Name="student_profile_id" />
+      </Principal>
+      <Dependent Role="tblSemesterResult">
+        <PropertyRef Name="student_profile_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OnlineResultDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="tblCgparules" EntityType="Self.tblCgparule" />
+    <EntitySet Name="tblColleges" EntityType="Self.tblCollege" />
+    <EntitySet Name="tblDegrees" EntityType="Self.tblDegree" />
+    <EntitySet Name="tblDepartments" EntityType="Self.tblDepartment" />
+    <EntitySet Name="tblMarksEntries" EntityType="Self.tblMarksEntry" />
+    <EntitySet Name="tblMarksheets" EntityType="Self.tblMarksheet" />
+    <EntitySet Name="tblSemesters" EntityType="Self.tblSemester" />
+    <EntitySet Name="tblSemesterResults" EntityType="Self.tblSemesterResult" />
+    <EntitySet Name="tblStudentProfiles" EntityType="Self.tblStudentProfile" />
+    <EntitySet Name="tblSubjects" EntityType="Self.tblSubject" />
+    <AssociationSet Name="FK_tblMarksEntry_tblDegree" Association="Self.FK_tblMarksEntry_tblDegree">
+      <End Role="tblDegree" EntitySet="tblDegrees" />
+      <End Role="tblMarksEntry" EntitySet="tblMarksEntries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblMarksEntry_tblSemester" Association="Self.FK_tblMarksEntry_tblSemester">
+      <End Role="tblDegree" EntitySet="tblDegrees" />
+      <End Role="tblMarksEntry" EntitySet="tblMarksEntries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSemester_tblDegree" Association="Self.FK_tblSemester_tblDegree">
+      <End Role="tblDegree" EntitySet="tblDegrees" />
+      <End Role="tblSemester" EntitySet="tblSemesters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblStudentProfile_tblDegree" Association="Self.FK_tblStudentProfile_tblDegree">
+      <End Role="tblDegree" EntitySet="tblDegrees" />
+      <End Role="tblStudentProfile" EntitySet="tblStudentProfiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblMarksEntry_tblDepartment" Association="Self.FK_tblMarksEntry_tblDepartment">
+      <End Role="tblDepartment" EntitySet="tblDepartments" />
+      <End Role="tblMarksEntry" EntitySet="tblMarksEntries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSemester_tblDepartment" Association="Self.FK_tblSemester_tblDepartment">
+      <End Role="tblDepartment" EntitySet="tblDepartments" />
+      <End Role="tblSemester" EntitySet="tblSemesters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblStudentProfile_tblDepartment" Association="Self.FK_tblStudentProfile_tblDepartment">
+      <End Role="tblDepartment" EntitySet="tblDepartments" />
+      <End Role="tblStudentProfile" EntitySet="tblStudentProfiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblMarksEntry_tblStudentProfile" Association="Self.FK_tblMarksEntry_tblStudentProfile">
+      <End Role="tblStudentProfile" EntitySet="tblStudentProfiles" />
+      <End Role="tblMarksEntry" EntitySet="tblMarksEntries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblMarksEntry_tblSubject" Association="Self.FK_tblMarksEntry_tblSubject">
+      <End Role="tblSubject" EntitySet="tblSubjects" />
+      <End Role="tblMarksEntry" EntitySet="tblMarksEntries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblMarksheet_tblStudentProfile" Association="Self.FK_tblMarksheet_tblStudentProfile">
+      <End Role="tblStudentProfile" EntitySet="tblStudentProfiles" />
+      <End Role="tblMarksheet" EntitySet="tblMarksheets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblStudentProfile_tblSemester" Association="Self.FK_tblStudentProfile_tblSemester">
+      <End Role="tblSemester" EntitySet="tblSemesters" />
+      <End Role="tblStudentProfile" EntitySet="tblStudentProfiles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSemesterResult_tblStudentProfile" Association="Self.FK_tblSemesterResult_tblStudentProfile">
+      <End Role="tblStudentProfile" EntitySet="tblStudentProfiles" />
+      <End Role="tblSemesterResult" EntitySet="tblSemesterResults" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_generate_result" ReturnType="Collection(OnlineResultDBModel.sp_generate_result_Result)">
+      <Parameter Name="semester_id" Mode="In" Type="Int32" />
+      <Parameter Name="departmant_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(OnlineResultDBModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(OnlineResultDBModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="sp_generate_mark_sheet" ReturnType="Collection(OnlineResultDBModel.sp_generate_mark_sheet_Result)">
+      <Parameter Name="reg_no" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_generate_result_Result">
+    <Property Type="String" Name="student_name" Nullable="false" MaxLength="150" />
+    <Property Type="Int32" Name="registration_no" Nullable="false" />
+    <Property Type="String" Name="semester_name" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="department_name" Nullable="true" MaxLength="200" />
+    <Property Type="Decimal" Name="grade_point" Nullable="true" Precision="38" Scale="6" />
+    <Property Type="Int32" Name="obatained_marks" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_generate_mark_sheet_Result">
+    <Property Type="String" Name="student_name" Nullable="false" MaxLength="150" />
+    <Property Type="Int32" Name="registration_no" Nullable="false" />
+    <Property Type="String" Name="semester_name" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="department_name" Nullable="true" MaxLength="200" />
+    <Property Type="Decimal" Name="grade_point" Nullable="false" Precision="3" Scale="2" />
+    <Property Type="Int32" Name="obatained_marks" Nullable="false" />
+    <Property Type="String" Name="subject_name" Nullable="false" MaxLength="150" />
+    <Property Type="Int32" Name="subject_code" Nullable="false" />
+    <Property Type="Int32" Name="roll_no" Nullable="false" />
+    <Property Type="DateTime" Name="date" Nullable="false" Precision="23" />
+  </ComplexType>
+</Schema>

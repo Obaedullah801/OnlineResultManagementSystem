@@ -1,0 +1,45 @@
+﻿@model OnlineResultManagementSystem.Models.tblSemester
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tblSemester</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.semester_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.semester_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblDegree.degree_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblDegree.degree_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblDepartment.department_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblDepartment.department_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @if(User.Identity.Name=="hmahmud59@gmail.com")
+    { 
+    @Html.ActionLink("Edit", "Edit", new { id = Model.semester_id }) 
+           }
+    @Html.ActionLink("Back to List", "Index")
+</p>

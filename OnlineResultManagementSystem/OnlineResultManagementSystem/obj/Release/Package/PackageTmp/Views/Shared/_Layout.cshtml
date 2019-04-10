@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+   
+     @Styles.Render("~/Content/style.css")
+    @Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")
+        <link href="~/Scripts/FancyBox/jquery.fancybox.css" rel="stylesheet" />
+
+</head>
+<body>
+    @if(@Request.IsAuthenticated)
+    { 
+    <div class="navbar bg-1  ">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="#"> <img src="~/Content/img/sbc.png" class="img-responsive img-circle margin" style="display:inline" alt="SBPGC" width="150" height="150"></a>
+                </div>
+
+                <div class="col-md-10">
+                    <h2>
+                        Sheikh Borhanuddin Post Graduate College
+                    </h2>
+                    <hr>
+                    <h3>
+                        Results Archive
+                    </h3>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle menu navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            
+                            
+                                <li>@Html.ActionLink("College", "Index", "Colleges")</li>
+                            
+                            <li>@Html.ActionLink("Student", "Index", "StudentProfiles")</li>
+                            <li>@Html.ActionLink("Degree", "Index", "Degrees")</li>
+                            <li>@Html.ActionLink("Department", "Index", "Departments")</li>
+                            <li>@Html.ActionLink("Semester", "Index", "Semesters")</li>
+                            <li>@Html.ActionLink("Subject", "Index", "Subjects")</li>
+                            <li>@Html.ActionLink("CGPA rules", "Index", "Cgparules")</li>
+                            <li>@Html.ActionLink("Marks Entry", "Index", "MarksEntries")</li>
+                            <li>@Html.ActionLink("Semester Result", "Index", "SemesterResult")</li>
+                            <li>@Html.ActionLink("Marksheet", "Index", "Marksheet")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
+                        @Html.Partial("_LoginPartial")
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+        <!-- News banner starts-->
+
+        @*<div id="breaking-news-container">
+        <div id="breaking-news-colour" class="slideup animated">
+
+        </div>
+        <span class="breaking-news-title delay-animated slidein text-primary">
+            // BREAKING //
+        </span>
+        <a class="breaking-news-headline delay-animated2 fadein marquee">
+            FIFA president says he'll resign amid corruption scandal
+        </a>
+    </div>*@
+
+
+        <!-- news banner ends - - - - - - -->
+        </div>
+    }
+            <div class="container body-content">
+                @RenderBody()
+                <hr />
+ 
+            </div>
+    <!-- Footer -->
+
+    <footer class="container-fluid bg-7 text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-menu">
+                    <ul style=" margin-right:400px;">
+                        <li><a style="color:yellow;" href=" #">National University</a></li>
+                        <li style="padding-right:10px;"><a style="color:yellow;" href=" #">Forum</a></li>
+                        <li style="padding-right:10px;"><a style="color:yellow;" href=" #">Download</a></li>
+                        <li style="padding-right:10px;"><a style="color:yellow;" href=" #">News & Events</a></li>
+                        <li style="padding-right:10px;"><a style="color:yellow;" href=" #">IT Club</a></li>
+                        <li style="padding-right:10px;"><a style="color:yellow;" href=" #">contact</a></li>
+                    </ul>
+                </div><br /><br /><br />
+                <h4>Address</h4>
+                <p>62, Nazimuddin Road, Dhaka-1100 | info@sbpgc.edu.bd</p>
+
+                <p>&copy; @DateTime.Now.Year - All Rights Reserved By <a style="color:yellow;" href="http://www.sbpgc.edu.bd/">SBPGC</a> Authority.</p>
+
+            </div>
+
+        </div>
+    </footer>
+   
+
+            @Scripts.Render("~/bundles/jquery")
+    <script src="~/Scripts/FancyBox/jquery.fancybox.js"></script>
+                @Scripts.Render("~/bundles/bootstrap")
+                
+            @RenderSection("scripts", required: false)
+</body>
+</html>

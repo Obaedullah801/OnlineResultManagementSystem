@@ -1,0 +1,52 @@
+﻿@model OnlineResultManagementSystem.Models.tblCollege
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tblCollege</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.college_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.college_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.college_code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.college_code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.college_logo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.college_logo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.college_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.college_address)
+        </dd>
+
+    </dl>
+</div>
+<p>@if(User.Identity.Name=="hmahmud59@gmail.com")
+   { 
+    @Html.ActionLink("Edit", "Edit", new { id = Model.college_id }) 
+}
+    @Html.ActionLink("Back to List", "Index")
+</p>

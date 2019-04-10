@@ -1,0 +1,103 @@
+﻿@model IEnumerable<OnlineResultManagementSystem.Models.tblStudentProfile>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @if(User.Identity.Name=="hmahmud59@gmail.com")
+    { 
+    @Html.ActionLink("Create New", "Create")
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.student_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.student_photo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fathers_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mothers_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.roll_no)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.reg_no)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.phone_no)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblDegree.degree_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblDepartment.department_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblSemester.semester_name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.student_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.student_photo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fathers_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mothers_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.roll_no)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.reg_no)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.phone_no)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblDegree.degree_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblDepartment.department_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblSemester.semester_name)
+        </td>
+        <td>
+            @if(User.Identity.Name == "hmahmud59@gmail.com")
+            { 
+           
+                 @Html.ActionLink("Edit", "Edit", new { id=item.student_profile_id })
+                 @Html.ActionLink("Delete", "Delete", new { id = item.student_profile_id })
+            }
+            
+            @Html.ActionLink("Details", "Details", new { id=item.student_profile_id }) |
+
+           
+        </td>
+    </tr>
+}
+
+</table>

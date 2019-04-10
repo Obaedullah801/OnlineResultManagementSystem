@@ -1,0 +1,61 @@
+﻿@model OnlineResultManagementSystem.Models.tblCgparule
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tblCgparule</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.minimum_marks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.minimum_marks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.maximum_marks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.maximum_marks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.grade_point)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.grade_point)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.letter_grade)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.letter_grade)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.division_or_class)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.division_or_class)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @if(User.Identity.Name=="hmahmud59@gmail.com")
+    {
+    @Html.ActionLink("Edit", "Edit", new { id = Model.cgpa_rules_id }) 
+    }
+    @Html.ActionLink("Back to List", "Index")
+</p>

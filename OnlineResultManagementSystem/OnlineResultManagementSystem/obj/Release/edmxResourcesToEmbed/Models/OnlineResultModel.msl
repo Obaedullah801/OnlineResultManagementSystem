@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OnlineResultDBModelStoreContainer" CdmEntityContainer="OnlineResultDBEntities">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="OnlineResultDBModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCgparules">
+      <EntityTypeMapping TypeName="OnlineResultDBModel.tblCgparule">
+        <MappingFragment StoreEntitySet="tblCgparules">
+          <ScalarProperty Name="cgpa_rules_id" ColumnName="cgpa_rules_id" />
+          <ScalarProperty Name="minimum_marks" ColumnName="minimum_marks" />
+          <ScalarProperty Name="maximum_marks" ColumnName="maximum_marks" />
+          <ScalarProperty Name="grade_point" ColumnName="grade_point" />
+          <ScalarProperty Name="letter_grade" ColumnName="letter_grade" />
+          <ScalarProperty Name="division_or_class" ColumnName="division_or_class" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblColleges">
+      <EntityTypeMapping TypeName="OnlineResultDBModel.tblCollege">
+        <MappingFragment StoreEntitySet="tblCollege">
+          <ScalarProperty Name="college_id" ColumnName="college_id" />
+          <ScalarProperty Name="college_name" ColumnName="college_name" />
+          <ScalarProperty Name="college_code" ColumnName="college_code" />
+          <ScalarProperty Name="college_logo" ColumnName="college_logo" />
+          <ScalarProperty Name="college_address" ColumnName="college_address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDegrees">
+      <EntityTypeMapping TypeName="OnlineResultDBModel.tblDegree">
+        <MappingFragment StoreEntitySet="tblDegree">
+          <ScalarProperty Name="degree_id" ColumnName="degree_id" />
+          <ScalarProperty Name="degree_name" ColumnName="degree_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDepartments">
+      <EntityTypeMapping TypeName="OnlineResultDBModel.tblDepartment">
+        <MappingFragment StoreEntitySet="tblDepartment">
+          <ScalarProperty Name="department_id" ColumnName="department_id" />
+          <ScalarProperty Name="department_name" ColumnName="department_name" />
+          <ScalarProperty Name="dept_address" ColumnName="dept_address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMarksEntries">
+      <EntityTypeMapping TypeName="OnlineResultDBModel.tblMarksEntry">
+        <MappingFragment StoreEntitySet="tblMarksEntry">
+          <ScalarProperty Name="marks_entry_id" ColumnName="marks_entry_id" />
+          <ScalarProperty Name="student_profile_id" ColumnName="student_profile_id" />
+          <ScalarProperty Name="degree_id" ColumnName="degree_id" />
+          <ScalarProperty Name="department_id" ColumnName="department_id" />
+          <ScalarProperty Name="semester_id" ColumnName="semester_id" />
+          <ScalarProperty Name="roll_no" ColumnName="roll_no" />
+          <ScalarProperty Name="reg_no" ColumnName="reg_no" />
+          <ScalarProperty Name="subject_id" ColumnName="subject_id" />
+          <ScalarProperty Name="full_marks" ColumnName="full_marks" />
+          <ScalarProperty Name="obtained_marks" ColumnName="obtained_marks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMarksheets">
+      <EntityTypeMapping TypeName="OnlineResultDBModel.tblMarksheet">
+        <MappingFragment StoreEntitySet="tblMarksheet">
+          <ScalarProperty Name="marksheet_id" ColumnName="marksheet_id" />
+          <ScalarProperty Name="student_profile_id" ColumnName="student_profile_id" />
+          <ScalarProperty Name="fathers_name" ColumnName="fathers_name" />
+          <ScalarProperty Name="mothers_name" ColumnName="mothers_name" />
+          <ScalarProperty Name="degree_name" ColumnName="degree_name" />
+          <ScalarProperty Name="department_name" ColumnName="department_name" />
+          <ScalarProperty Name="semester_name" ColumnName="semester_name" />
+          <ScalarProperty Name="roll_no" ColumnName="roll_no" />
+          <ScalarProperty Name="reg_no" ColumnName="reg_no" />
+          <ScalarProperty Name="grade_point" ColumnName="grade_point" />
+          <ScalarProperty Name="letter_grade" ColumnName="letter_grade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSemesters">
+      <EntityTypeMapping TypeName="OnlineResultDBModel.tblSemester">
+        <MappingFragment StoreEntitySet="tblSemester">
+          <ScalarProperty Name="semester_id" ColumnName="semester_id" />
+          <ScalarProperty Name="semester_name" ColumnName="semester_name" />
+          <ScalarProperty Name="degree_id" ColumnName="degree_id" />
+          <ScalarProperty Name="department_id" ColumnName="department_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSemesterResults">
+      <EntityTypeMapping TypeName="OnlineResultDBModel.tblSemesterResult">
+        <MappingFragment StoreEntitySet="tblSemesterResult">
+          <ScalarProperty Name="semester_result_id" ColumnName="semester_result_id" />
+          <ScalarProperty Name="student_profile_id" ColumnName="student_profile_id" />
+          <ScalarProperty Name="roll_no" ColumnName="roll_no" />
+          <ScalarProperty Name="reg_no" ColumnName="reg_no" />
+          <ScalarProperty Name="total_marks" ColumnName="total_marks" />
+          <ScalarProperty Name="obtained_total_marks" ColumnName="obtained_total_marks" />
+          <ScalarProperty Name="letter_grade" ColumnName="letter_grade" />
+          <ScalarProperty Name="grade_point" ColumnName="grade_point" />
+          <ScalarProperty Name="division_class" ColumnName="division_class" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblStudentProfiles">
+      <EntityTypeMapping TypeName="OnlineResultDBModel.tblStudentProfile">
+        <MappingFragment StoreEntitySet="tblStudentProfile">
+          <ScalarProperty Name="student_profile_id" ColumnName="student_profile_id" />
+          <ScalarProperty Name="student_name" ColumnName="student_name" />
+          <ScalarProperty Name="student_photo" ColumnName="student_photo" />
+          <ScalarProperty Name="fathers_name" ColumnName="fathers_name" />
+          <ScalarProperty Name="mothers_name" ColumnName="mothers_name" />
+          <ScalarProperty Name="roll_no" ColumnName="roll_no" />
+          <ScalarProperty Name="reg_no" ColumnName="reg_no" />
+          <ScalarProperty Name="degree_id" ColumnName="degree_id" />
+          <ScalarProperty Name="department_id" ColumnName="department_id" />
+          <ScalarProperty Name="semester_id" ColumnName="semester_id" />
+          <ScalarProperty Name="phone_no" ColumnName="phone_no" />
+          <ScalarProperty Name="email_id" ColumnName="email_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSubjects">
+      <EntityTypeMapping TypeName="OnlineResultDBModel.tblSubject">
+        <MappingFragment StoreEntitySet="tblSubject">
+          <ScalarProperty Name="subject_id" ColumnName="subject_id" />
+          <ScalarProperty Name="subject_name" ColumnName="subject_name" />
+          <ScalarProperty Name="subject_code" ColumnName="subject_code" />
+          <ScalarProperty Name="full_marks" ColumnName="full_marks" />
+          <ScalarProperty Name="credit" ColumnName="credit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="OnlineResultDBModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="OnlineResultDBModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="OnlineResultDBModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_generate_result" FunctionName="OnlineResultDBModel.Store.sp_generate_result">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="OnlineResultDBModel.sp_generate_result_Result">
+          <ScalarProperty Name="student_name" ColumnName="student_name" />
+          <ScalarProperty Name="registration_no" ColumnName="registration_no" />
+          <ScalarProperty Name="semester_name" ColumnName="semester_name" />
+          <ScalarProperty Name="department_name" ColumnName="department_name" />
+          <ScalarProperty Name="grade_point" ColumnName="grade_point" />
+          <ScalarProperty Name="obatained_marks" ColumnName="obatained_marks" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="OnlineResultDBModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="OnlineResultDBModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="OnlineResultDBModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="OnlineResultDBModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="OnlineResultDBModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="OnlineResultDBModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="sp_generate_mark_sheet" FunctionName="OnlineResultDBModel.Store.sp_generate_mark_sheet">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="OnlineResultDBModel.sp_generate_mark_sheet_Result">
+          <ScalarProperty Name="student_name" ColumnName="student_name" />
+          <ScalarProperty Name="registration_no" ColumnName="registration_no" />
+          <ScalarProperty Name="semester_name" ColumnName="semester_name" />
+          <ScalarProperty Name="department_name" ColumnName="department_name" />
+          <ScalarProperty Name="grade_point" ColumnName="grade_point" />
+          <ScalarProperty Name="obatained_marks" ColumnName="obatained_marks" />
+          <ScalarProperty Name="subject_name" ColumnName="subject_name" />
+          <ScalarProperty Name="subject_code" ColumnName="subject_code" />
+          <ScalarProperty Name="roll_no" ColumnName="roll_no" />
+          <ScalarProperty Name="date" ColumnName="date" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

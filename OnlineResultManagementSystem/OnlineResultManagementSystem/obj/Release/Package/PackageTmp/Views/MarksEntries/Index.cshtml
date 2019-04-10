@@ -1,0 +1,93 @@
+﻿@model IEnumerable<OnlineResultManagementSystem.Models.tblMarksEntry>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>@if(User.Identity.Name=="hmahmud59@gmail.com")
+   { 
+    @Html.ActionLink("Create New", "Create")
+}
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.semester_id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.roll_no)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.reg_no)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.full_marks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.obtained_marks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblDegree.degree_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblDegree1.degree_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblDepartment.department_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblStudentProfile.student_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblSubject.subject_name)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.semester_id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.roll_no)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.reg_no)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.full_marks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.obtained_marks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblDegree.degree_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblDegree1.degree_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblDepartment.department_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblStudentProfile.student_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblSubject.subject_name)
+        </td>
+        <td>
+            @if(User.Identity.Name=="hmahmud59@gmail.com")
+            { 
+            @Html.ActionLink("Edit", "Edit", new { id=item.marks_entry_id }) 
+           
+            @Html.ActionLink("Delete", "Delete", new { id=item.marks_entry_id })
+            }
+            @Html.ActionLink("Details", "Details", new { id = item.marks_entry_id })
+        </td>
+    </tr>
+}
+
+</table>

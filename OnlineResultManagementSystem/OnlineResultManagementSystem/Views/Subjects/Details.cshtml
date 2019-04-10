@@ -1,0 +1,53 @@
+﻿@model OnlineResultManagementSystem.Models.tblSubject
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tblSubject</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.subject_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.subject_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.subject_code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.subject_code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.full_marks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.full_marks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.credit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.credit)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @if(User.Identity.Name=="hmahmud59@gmail.com")
+    { 
+    @Html.ActionLink("Edit", "Edit", new { id = Model.subject_id }) 
+          }
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,456 @@
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll.config
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.pdb
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Owin.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\WebGrease.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.csprojResolveAssemblyReference.cache
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.dll
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.pdb
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.cache
+C:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.compiled
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll.config
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.pdb
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Owin.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\WebGrease.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.pdb
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.csprojResolveAssemblyReference.cache
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.cache
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.compiled
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.dll
+E:\Drive(F)\Project\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.pdb
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll.config
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.pdb
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Owin.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\WebGrease.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.csprojResolveAssemblyReference.cache
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.cache
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.compiled
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.dll
+C:\Users\netcom\Downloads\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.pdb
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll.config
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.pdb
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Owin.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\WebGrease.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.pdb
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.csprojResolveAssemblyReference.cache
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.cache
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.compiled
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.dll
+D:\1Obaedullah_software\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.pdb
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll.config
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.pdb
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Owin.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\WebGrease.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.pdb
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.csprojResolveAssemblyReference.cache
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.cache
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.compiled
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.dll
+D:\ure34w\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.pdb
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll.config
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.pdb
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Owin.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\WebGrease.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.pdb
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.csprojResolveAssemblyReference.cache
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.cache
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.compiled
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.dll
+D:\1Obaedullah_software\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.pdb
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll.config
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.pdb
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Owin.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\WebGrease.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.pdb
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.csprojResolveAssemblyReference.cache
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.cache
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.compiled
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.dll
+D:\C# Work\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.pdb
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll.config
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\OnlineResultManagementSystem.pdb
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Owin.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\WebGrease.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Helpers.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Mvc.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Optimization.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.Razor.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Deployment.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\System.Web.WebPages.Razor.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Antlr3.Runtime.pdb
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Newtonsoft.Json.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\EntityFramework.SqlServer.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Core.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Facebook.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Cookies.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.OAuth.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Google.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.Twitter.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.csprojResolveAssemblyReference.cache
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.cache
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\RdlCompile.compiled
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.dll
+D:\C# Work\Work_OnlineResultManagementSystem\OnlineResultManagementSystem\OnlineResultManagementSystem\obj\Debug\OnlineResultManagementSystem.pdb

@@ -1,0 +1,104 @@
+﻿@model OnlineResultManagementSystem.Models.tblMarksEntry
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>tblMarksEntry</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.semester_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.semester_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.roll_no)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.roll_no)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.reg_no)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.reg_no)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.full_marks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.full_marks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.obtained_marks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.obtained_marks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblDegree.degree_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblDegree.degree_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblDegree1.degree_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblDegree1.degree_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblDepartment.department_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblDepartment.department_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblStudentProfile.student_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblStudentProfile.student_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblSubject.subject_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblSubject.subject_name)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

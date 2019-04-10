@@ -1,0 +1,100 @@
+﻿@model OnlineResultManagementSystem.Models.tblMarksEntry
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tblMarksEntry</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.semester_id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.semester_id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.roll_no)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.roll_no)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.reg_no)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.reg_no)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.full_marks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.full_marks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.obtained_marks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.obtained_marks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblDegree.degree_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblDegree.degree_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblDegree1.degree_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblDegree1.degree_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblDepartment.department_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblDepartment.department_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblStudentProfile.student_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblStudentProfile.student_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblSubject.subject_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblSubject.subject_name)
+        </dd>
+
+    </dl>
+</div>
+<p>@if(User.Identity.Name=="hmahmud59@gmail.com")
+   { 
+    @Html.ActionLink("Edit", "Edit", new { id = Model.marks_entry_id }) 
+}
+    @Html.ActionLink("Back to List", "Index")
+</p>

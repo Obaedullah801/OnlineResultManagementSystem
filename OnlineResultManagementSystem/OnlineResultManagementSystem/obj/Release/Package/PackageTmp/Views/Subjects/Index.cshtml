@@ -1,0 +1,59 @@
+﻿@model IEnumerable<OnlineResultManagementSystem.Models.tblSubject>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @if(User.Identity.Name=="hmahmud59@gmail.com")
+    { 
+    @Html.ActionLink("Create New", "Create")
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.subject_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.subject_code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.full_marks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.credit)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.subject_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.subject_code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.full_marks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.credit)
+        </td>
+        <td>
+            @if(User.Identity.Name=="hmahmud59@gmail.com")
+            { 
+            @Html.ActionLink("Edit", "Edit", new { id=item.subject_id }) 
+            
+            @Html.ActionLink("Delete", "Delete", new { id=item.subject_id })
+            }
+
+            @Html.ActionLink("Details", "Details", new { id = item.subject_id }) |
+        </td>
+    </tr>
+}
+
+</table>

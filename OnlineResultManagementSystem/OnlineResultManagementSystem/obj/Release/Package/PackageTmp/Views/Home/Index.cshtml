@@ -1,0 +1,111 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<!-- first Container -->
+<!--  - - - -  - - - - carousel slide Starts - - - - - - - - -->
+<div class="container-fluid text-center">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" align="center" role="listbox">
+            <div class="item active">
+                <img src="~/Content/img/img1.jpg" alt="Rose" style="height: 300px; width:100%">
+                <div class="carousel-caption">
+                    @*<h3>Bangladesh</h3>*@
+                </div>
+            </div>
+            <div class="item" align="center">
+                <img src="~/Content/img/img2.jpg" alt="Lily" style="height: 300px; width:100%">
+                <div class="carousel-caption">
+                    @*<h3>Dhaka</h3>*@
+                </div>
+            </div>
+
+            <div class="item" align="center">
+                <img src="~/Content/img/img3.jpg" class="img-responsive" alt="Jui" style="height: 300px; width:100%">
+                <div class="carousel-caption">
+                    @*<h3>SBPGC</h3>*@
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<!--  - - - -  - - - - carousel ends - - - - - - - - -->
+<!--Second Container (Grid) -->
+<div class="container-fluid bg-3 text-center">
+
+    <div class="row">
+        <div class="col-sm-4 " style="height:auto; width: auto">
+            <h2>History of SBPGC</h2>
+            <p>
+                Shaikh Burhanuddin Post Graduate College is prominent and old university college in old dhaka. Neda-e-Islam established Shaikh Burhanuddin Post Graduate College in 1965 at 50,Narinda, Dhaka after the demise (9 May 1964) of the Great Reformer Imaamut Tareeqat Allama Shaykh Sayyid Muhammad Burhanuddin Uwaysi (Rad.) to commemorate his holly name. From the year 1949 Imaamut Tareeqat (Rad.) established and run successfully Twenty Institutions in his lifetime. And Shaikh Burhanuddin College is the 21st institution of Neda-e-Islam. Later it was shifted to 60,Nazimuddin Road, Dhaka (Old Radio Broadcasting Center) on 8 February 1968. To implement Article 3(C) of the Memorandum of Neda-e-Islam to precipitate the needed Islamic Spiritual Reformed Environment in General and Modern Education, it is absolutely free from students politics as the founder organization Neda-e-Islam is absolutely Non-political.
+
+                <!-- Trigger the modal with a button -->
+
+
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Learn More</button>
+
+                <!-- Modal -->
+                <div id="myModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">History of SBPGC</h4>
+                            </div>
+                            <div class="modal-body">
+
+                                Shaikh Burhanuddin Post Graduate College is prominent and old university college in old dhaka. Neda-e-Islam established Shaikh Burhanuddin Post Graduate College in 1965 at 50,Narinda, Dhaka after the demise (9 May 1964) of the Great Reformer Imaamut Tareeqat Allama Shaykh Sayyid Muhammad Burhanuddin Uwaysi (Rad.) to commemorate his holly name. From the year 1949 Imaamut Tareeqat (Rad.) established and run successfully Twenty Institutions in his lifetime. And Shaikh Burhanuddin College is the 21st institution of Neda-e-Islam. Later it was shifted to 60,Nazimuddin Road, Dhaka (Old Radio Broadcasting Center) on 8 February 1968. To implement Article 3(C) of the Memorandum of Neda-e-Islam to precipitate the needed Islamic Spiritual Reformed Environment in General and Modern Education, it is absolutely free from students politics as the founder organization Neda-e-Islam is absolutely Non-political.,<br />
+                                College facilities
+
+                                Modern class room Environment.<br />
+
+                                Proficient internal faculties and guest teachers from renowned institutions.<br />
+
+                                Rich Central library and individual Seminar for every department.<br />
+
+                                Extra-curricular facilities (Cultural event, Study tour, annual Sports, Cultural Club, IT Club) provided to improve level of competence.<br />
+
+                                Spacious, non-political campus environment.<br />
+
+                                Full campus under wireless network<br />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </p>
+
+
+
+
+            <img src="~/Content/img/img3.jpg" class="img-circle" alt="Cinque Terre" width="190" height="190">
+        </div>
+        
+
+    </div>
+</div>

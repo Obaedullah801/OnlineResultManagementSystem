@@ -1,0 +1,37 @@
+﻿@model OnlineResultManagementSystem.Models.tblDepartment
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tblDepartment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.department_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.department_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dept_address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dept_address)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @if(User.Identity.Name=="hmahmud59@gmail.com")
+    { 
+    @Html.ActionLink("Edit", "Edit", new { id = Model.department_id }) 
+              }
+    @Html.ActionLink("Back to List", "Index")
+</p>

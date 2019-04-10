@@ -1,0 +1,52 @@
+﻿@model OnlineResultManagementSystem.Models.tblMarksheet
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Individual marksheet</h2>
+<hr />
+<div class="row">
+    <div class="col-md-10">
+        <div class="col-md-3">
+            Search By Registration Number :
+        </div>
+        <div class="col-md-3">
+            <input type="text" class="form-control" id="reg_no" name="roll_no" />
+        </div>
+    </div>
+    
+    <div class="col-md-10">
+        <br />
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-3" style="float: left;">
+            <input type="button" class="btn btn-info" value=" Show marksheet" onclick="ShowmarksheetReport('pdf')" id="btnMarksheetReport" />
+            
+
+        </div>
+
+    </div>
+
+</div>
+<br />
+<div style="clear: both"></div>
+
+
+<div class="col-md-12" id="LoanReceivaleProcessingRecord">
+    NB: For fuether use, you can download or print your result copy from report manu control. Thanks.
+</div>
+
+<script>
+    function ShowmarksheetReport(fileType) {
+        var regNo = $('#reg_no').val();
+        
+        var viewURL = '../../Marksheet/ShowmarksheetReport/?id=' + fileType + "&regNo=" + regNo;
+        //FancyBox(viewURL);
+        $.fancybox.open({
+            href: viewURL,
+            'type': 'iframe'
+        })
+    }
+</script>

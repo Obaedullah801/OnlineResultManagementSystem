@@ -1,0 +1,58 @@
+﻿@model IEnumerable<OnlineResultManagementSystem.Models.tblCollege>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>@if(User.Identity.Name=="hmahmu8d59@gmail.com")
+   { 
+    @Html.ActionLink("Create New", "Create")
+}
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.college_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.college_code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.college_logo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.college_address)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.college_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.college_code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.college_logo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.college_address)
+        </td>
+        <td>
+            @if(User.Identity.Name=="hmahmud59@gmail.com")
+            { 
+            @Html.ActionLink("Edit", "Edit", new { id=item.college_id }) 
+           
+            @Html.ActionLink("Delete", "Delete", new { id=item.college_id })
+            }
+            @Html.ActionLink("Details", "Details", new { id = item.college_id })
+            
+        </td>
+    </tr>
+}
+
+</table>
