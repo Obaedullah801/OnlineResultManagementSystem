@@ -1,0 +1,69 @@
+OnlineResultManagementSystem
+
+Email: hmahmud59@gmail.com
+pass:  Hm01729498580?
+
+
+Facebook: Programmer Csharp
+user: 01721447801
+pass: 44780195319001
+
+gmail: Md.Obaedullah
+user: csharpdotnet953@gmail.com
+pass: 187633127020
+
+
+
+
+
+https://video.search.yahoo.com/search/video?fr=tightropetb&p=asp.net+mvc+4+step+by+step+video+tutorial#id=11&vid=df5c2b4d890ff686720042bf7552224b&action=view
+http://www.dotnetfunda.com/videos/show/520/csharp-step-by-step-training-use-of-interfaces
+
+Login test:
+https://www.codeproject.com/Articles/482546/Creating-a-custom-user-login-form-with-NET-Csharp
+https://video.search.yahoo.com/search/video?fr=tightropetb&p=create+login+form+in+asp.net+mvc+4+video#id=1&vid=e71841abe191ac6b9ec82eaf23385517&action=click
+User Registration:
+https://www.youtube.com/watch?v=xBS9FMF2NFM&t=47s
+
+Login and Registration: MVC 4
+1   https://www.youtube.com/watch?v=gSJFjuWFTdA
+2   https://www.youtube.com/watch?v=qGbpfgVm-M4	
+3   https://www.youtube.com/watch?v=7g2ptkiPLIg
+
+SMTPsentMail:
+Sending emails in asp.net using SMTP server settings from web config Part 78
+forgot Password:
+https://www.youtube.com/watch?v=7g2ptkiPLIg
+Part 3 - Implement forgot password functionality in asp.net MVC
+
+microsoft Office 2010/Avast:
+http://www.newsinitiative.org/microsoft-office-2010-free-download/
+
+gmail Error:
+https://www.aspsnippets.com/Articles/GMAIL-Error-The-SMTP-server-requires-a-secure-connection-or-the-client-was-not-authenticated.aspx
+https://www.aspsnippets.com/DownloadFile.aspx?File=72f5ee76-f298-4618-824e-744fdae686c8.zip#center
+
+SQL Server Link
+https://www.itechtics.com/microsoft-sql-server-versions-direct-download-links-2008-2012-2014-2016/
+
+Download source:
+1  http://www.dotnetawesome.com/2017/04/complete-login-registration-system-asp-mvc.html
+2  http://www.dotnetawesome.com/2017/04/part-2-complete-login-and-registration-asp-mvc.html
+gridView page:
+https://www.youtube.com/watch?v=0Ia-SPThFFY
+Part 1 - Basic Inplace editing in asp.net MVC webgrid
+
+Complete asp.net mvc project:
+https://www.youtube.com/watch?v=zWFoZb6EiwU
+Learn ASP NET MVC 5 Complete Tutorial 2018 COMPLETE
+
+
+View:
+https://www.youtube.com/watch?v=vy-KBigg9WA
+Calculator
+https://www.c-sharpcorner.com/article/create-basic-calculator-using-windows-forms-and-c-sharp/
+
+Online Exam System
+https://www.youtube.com/watch?v=vZ0h1AFI3b8
+Creating Online Exam/Test System using C# .Net MVC Step by step Part 1
+
